@@ -125,6 +125,38 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://192.168.1.10:8081/recipes/2",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"1",
+						"10"
+					],
+					"port": "8081",
+					"path": [
+						"recipes",
+						"2"
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }
